@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #1c0641 0%, #12022e 60%, #000 100%);
+  color: #e0d9ff;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 1300px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}

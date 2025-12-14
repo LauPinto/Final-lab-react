@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "name": "Expedition 33",
+        "price": 45.445,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Expedition 33 es una aventura épica llena de exploración y combates intensos. Atraviesa mundos misteriosos, descubre secretos antiguos y lucha contra enemigos colosales en un viaje que pondrá a prueba tu estrategia y reflejos.",
+        "imageUrl": "/images/expedition33.jpg",
+        "destacado": true
+    },
+    {
+        "id": "2",
+        "name": "Battlefield 6",
+        "price": 65.407,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Battlefield 6 ofrece una experiencia de guerra total con gráficos impresionantes y una jugabilidad dinámica. Participa en batallas masivas, utiliza vehículos y armas avanzadas, y colabora con tu equipo para dominar el campo de batalla en este título emblemático de la serie Battlefield.",
+        "imageUrl": "/images/battlefield6.jpg",
+        "destacado": false
+    },
+    {
+        "id": "3",
+        "name": "Grand Theft Auto V",
+        "price": 29.735,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Grand Theft Auto V ofrece una experiencia de mundo abierto sin precedentes. Sumérgete en la ciudad de Los Santos, llena de vida y oportunidades. Completa misiones emocionantes, participa en actividades secundarias y explora cada rincón de este vasto entorno urbano.",
+        "imageUrl": "/images/gta5.jpg",
+        "destacado": false
+    },
+    {
+        "id": "4",
+        "name": "Lies of P",
+        "price": 32.108,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Lies of P es un juego de acción y aventura que reinventa el clásico cuento de Pinocho en un oscuro y retorcido mundo steampunk. Enfréntate a enemigos desafiantes, resuelve acertijos intrigantes y descubre la verdad detrás de tu existencia mientras luchas por sobrevivir en un entorno implacable.",
+        "imageUrl": "/images/LiesofP.png",
+        "destacado": false
+    },
+    {
+        "id": "5",
+        "name": "Little Nightmares III",
+        "price": 47.185,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Little Nightmares III continúa la inquietante saga de terror y aventura. Acompaña a nuevos protagonistas en su viaje a través de un mundo oscuro y surrealista, lleno de criaturas aterradoras y desafíos psicológicos. Explora entornos inquietantes, resuelve acertijos y enfrenta tus miedos en esta nueva entrega de la serie.",
+        "imageUrl": "/images/littlenightmare3.jpg",
+        "destacado": false
+    },
+    {
+        "id": "6",
+        "name": "Mafia: The Old Country",
+        "price": 63.901,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Mafia: The Old Country te sumerge en la vida de un joven inmigrante italiano que llega a Estados Unidos en la década de 1920. A medida que asciendes en las filas de la mafia, experimentarás una narrativa profunda y emocional, llena de traiciones, lealtades y decisiones morales que afectarán el destino de tu personaje y su familia.",
+        "imageUrl": "/images/MafiaOldcountry.jpg",
+        "destacado": false
+    },
+    {
+        "id": "7",
+        "name": "Hollow Knight: Silksong",
+        "price": 27.958,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Hollow Knight: Silksong es la esperada secuela del aclamado juego de acción y aventura Hollow Knight. En esta entrega, los jugadores controlan a Hornet, una nueva protagonista con habilidades únicas, mientras exploran un vasto y hermoso mundo subterráneo lleno de secretos, enemigos desafiantes y jefes épicos. Con un estilo artístico impresionante y una banda sonora envolvente, Silksong promete ofrecer una experiencia inolvidable para los fans del género metroidvania.",
+        "imageUrl": "/images/silksong.jpg",
+        "destacado": true
+    },
+    {
+        "id": "8",
+        "name": "Metal Gear Solid Δ",
+        "price": 46.622,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Metal Gear Solid Δ es una reinvención moderna del clásico juego de sigilo y acción. Con gráficos mejorados y mecánicas de juego actualizadas, los jugadores asumen el papel de un soldado de élite en misiones encubiertas llenas de intriga política y tecnología avanzada. Explora entornos detallados, utiliza tácticas de sigilo y combate para completar tus objetivos y desentrañar una historia profunda y emocionante.",
+        "imageUrl": "/images/MetalGearSolid.jpg",
+        "destacado": false
+    },
+    {
+        "id": "9",
+        "name": "Red Dead Redemption 2",
+        "price": 20.569,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Red Dead Redemption 2 es una épica aventura de mundo abierto ambientada en el salvaje oeste. Sigue la historia de Arthur Morgan, un forajido que lucha por sobrevivir en un mundo cambiante. Explora vastos paisajes, participa en emocionantes tiroteos y toma decisiones que afectarán el destino de tu banda y del propio Arthur. Con una narrativa profunda y personajes memorables, RDR2 ofrece una experiencia inmersiva e inolvidable.",
+        "imageUrl": "/images/red2.jpg",
+        "destacado": false
+    },
+    {
+        "id": "10",
+        "name": "Silent Hill F",
+        "price": 73.988,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Silent Hill F marca el regreso a la icónica serie de terror psicológico. En esta entrega, los jugadores exploran la inquietante ciudad de Silent Hill, enfrentándose a sus peores miedos y desentrañando oscuros secretos. Con una atmósfera opresiva, acertijos desafiantes y enemigos aterradores, Silent Hill F promete ofrecer una experiencia de horror inolvidable para los fans del género.",
+        "imageUrl": "/images/Silenthillf.png",
+        "destacado": true
+    },
+    {
+        "id": "11",
+        "name": "Resident Evil 4 Remake",
+        "price": 15.065,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "Resident Evil 4 Remake es una versión modernizada del clásico juego de terror y supervivencia. Con gráficos mejorados y mecánicas de juego actualizadas, los jugadores asumen el papel de Leon S. Kennedy en su misión para rescatar a la hija del presidente de Estados Unidos. Enfréntate a hordas de enemigos aterradores, resuelve acertijos y explora entornos detallados mientras luchas por sobrevivir en esta renovada experiencia de Resident Evil.",
+        "imageUrl": "/images/residentevil4.jpg",
+        "destacado": true
+    },
+        {
+        "id": "12",
+        "name": "God of War Ragnarök",
+        "price": 55.073,
+        "category": "juegos",
+        "description":"Ps5, Xbox Series X/S y PC",
+        "longDescription": "God of War Ragnarök continúa la épica saga de Kratos y su hijo Atreus mientras enfrentan el inminente fin del mundo nórdico. Explora vastos paisajes, combate contra dioses y criaturas mitológicas, y desentraña una narrativa profunda llena de emociones y desafíos. Con combates intensos, gráficos impresionantes y una historia cautivadora, God of War Ragnarök es una experiencia imprescindible para los fans de la serie.",
+        "imageUrl": "/images/gowragnarok.jpg",
+        "destacado": false
+    }
+]

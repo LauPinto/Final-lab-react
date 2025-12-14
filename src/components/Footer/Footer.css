@@ -1,0 +1,22 @@
+.footer {
+background: linear-gradient(90deg, #0a0a0a, #110718, #462653);
+color: #d6c3ff;
+text-align: center;
+padding: 0.5rem 1rem;
+font-family: 'Poppins', sans-serif;
+border-top: 2px solid #b184ff;
+box-shadow: 0 -2px 10px rgba(177, 132, 255, 0.3);
+animation: fadeIn 1.5s ease-in;
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+}
+
+.footer p {
+margin: 0.3rem 0;
+font-size: 0.95rem;
+letter-spacing: 1px;
+}
+

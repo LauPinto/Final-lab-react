@@ -1,0 +1,57 @@
+.count-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.count-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.count-buttons span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ffd0;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background-color: rgba(0, 255, 204, 0.12);
+}
+
+.btn {
+    background-color: #00e6ab;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #111;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 0 6px rgba(241, 72, 247, 0.6);
+}
+
+.btn:hover:not(:disabled) {
+    background-color: #00ffbf;
+    transform: scale(1.08);
+    box-shadow: 0 0 10px rgba(0, 255, 170, 1);
+}
+
+.btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.btn-add {
+    background-color: #0ee7ff;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.btn-add:hover:not(:disabled) {
+    background-color: #4dffff;
+}

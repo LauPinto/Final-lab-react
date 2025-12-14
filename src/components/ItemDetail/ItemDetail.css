@@ -1,0 +1,94 @@
+.detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    min-height: 80vh;
+}
+
+.detail-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(145deg, #1b0b33, #0f0220);
+    border: 1px solid rgba(138, 43, 226, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.5);
+    padding: 2rem;
+    color: #e0d9ff;
+    max-width: 900px;
+    width: 100%;
+    gap: 2rem;
+}
+
+.detail-image {
+    width: 350px;
+    height: 60%;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid rgba(138, 43, 226, 0.4);
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.3);
+}
+
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.detail-title {
+    color: #b184ff;
+    font-size: 2rem;
+    text-shadow: 0 0 8px #8a2be2;
+}
+
+.detail-price {
+    color: #00e6ff;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.detail-short {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.detail-long {
+    font-size: 1rem;
+    opacity: 0.9;
+    color: #cfc3ff;
+    line-height: 1.5;
+}
+
+.add-button {
+    background: linear-gradient(90deg, #8a2be2, #00e6ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background: linear-gradient(90deg, #00e6ff, #8a2be2);
+    box-shadow: 0 0 10px #00e6ff, 0 0 20px #8a2be2;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .detail-card {
+    flex-direction: column;
+    text-align: center;
+}
+
+.detail-image {
+    width: 80%;
+    height: auto;
+}
+}
