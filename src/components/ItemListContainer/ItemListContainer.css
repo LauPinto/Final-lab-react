@@ -10,20 +10,37 @@ section {
 }
 
 .itemListContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+
+    justify-items: center;
+}
+
+
+@media (max-width: 1024px) {
+    .itemListContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .itemListContainer {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
 }
 
 section p {
-    font-size: 1.5rem;       
-    margin: 1rem 0;            
-    text-align: center;       
-    font-weight: 500;         
-    text-shadow: 0 0 5px #8a2be2; /
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0 0 5px #8a2be2;
 }
