@@ -1,13 +1,24 @@
-
 import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/CartContext/useCartContext";
-import { Item } from "../Item/Item";
 
-import "./Cart.css"
-
+import "./Cart.css";
 
 export const Cart = () => {
-    const { cart, clearCart, deleteItem, decreaseQuantity, total, checkout } = useCartContext();
+    const {
+        cart,
+        clearCart,
+        deleteItem,
+        decreaseQuantity,
+        total,
+        checkout
+    } = useCartContext();
+
+    const formatPrice = (value) => {
+        return new Intl.NumberFormat("es-AR", {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+        }).format(value);
+    };
 
     return (
         <section className="item-list-container">
@@ -32,21 +43,31 @@ export const Cart = () => {
                                 <td>{prod.name}</td>
 
                                 <td>
-                                    <img src={prod.imageUrl} alt={prod.name} className="img-cart" />
+                                    <img
+                                        src={prod.imageUrl}
+                                        alt={prod.name}
+                                        className="img-cart"
+                                    />
                                 </td>
 
-                                <td>${prod.price}</td>
+                                <td>${formatPrice(prod.price)}</td>
 
                                 <td>{prod.quantity}</td>
 
-                                <td>${prod.quantity * prod.price}</td>
+                                <td>${formatPrice(prod.quantity * prod.price)}</td>
 
                                 <td>
-                                    <button className="btn btn-cart" onClick={() => decreaseQuantity(prod.id)}>
+                                    <button
+                                        className="btn btn-cart"
+                                        onClick={() => decreaseQuantity(prod.id)}
+                                    >
                                         ➖
                                     </button>
 
-                                    <button className="btn btn-cart delete" onClick={() => deleteItem(prod.id)}>
+                                    <button
+                                        className="btn btn-cart delete"
+                                        onClick={() => deleteItem(prod.id)}
+                                    >
                                         ❌
                                     </button>
                                 </td>
@@ -61,7 +82,7 @@ export const Cart = () => {
             {cart.length ? (
                 <div className="btn-container">
                     <div className="total-pagar">
-                        <p>Total: ${total()}</p>
+                        <p>Total: ${formatPrice(total())}</p>
                     </div>
 
                     <button className="btn" onClick={checkout}>

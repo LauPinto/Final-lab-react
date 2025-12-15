@@ -4,17 +4,29 @@ export const Item = ({ name, price, description, imageUrl, children }) => {
 
     const formattedPrice = new Intl.NumberFormat("es-AR").format(price);
 
-return (
-    <article className="product-item">
-        <img src={imageUrl} alt={description} className="product-image" />
-        <h2 className="product-title">{name}</h2>
+    return (
+        <article className="product-item">
 
-    <p className="product-price">
-        Precio: ${formattedPrice}
-    </p>
+            <div className="product-image-container">
+                <img
+                    src={imageUrl}
+                    alt={description}
+                    className="product-image"
+                />
+            </div>
 
-    <p className="product-description">{description}</p>
-    {children}
-    </article>
-);
+            <h2 className="product-title">{name}</h2>
+
+            <p className="product-price">
+                Precio: ${formattedPrice}
+            </p>
+
+            <p className="product-description">
+                {description}
+            </p>
+
+            {children}
+        </article>
+    );
 };
+
